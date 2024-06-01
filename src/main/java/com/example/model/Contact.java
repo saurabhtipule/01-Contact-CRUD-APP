@@ -12,6 +12,7 @@ import lombok.Data;
 @Table(name = "CONTACT_DTLS")
 public class Contact {
 
+    int i=10;
 	@Id
 	@GeneratedValue
 	private int contactId;
